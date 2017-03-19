@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <numbers> = (zero | one | two | three| four| five | six | seven | eight | nine | ten);
+public <action>  = (yes |no |quadratic equation |linear equation | cubic equation | somadhan koro | bring glass | take glass | light on | light off | solve equation | command home);
+public <final>   = (show result);
